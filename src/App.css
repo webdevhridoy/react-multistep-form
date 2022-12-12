@@ -1,5 +1,41 @@
-.App {
-  text-align: center;
+
+h2, h3, h5, p {
+  color: #a5aab5;
+}
+
+.label-text{
+  color: #a5aab5;
+}
+
+.input-field{
+  color: rgb(31, 44, 70);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.acceptance-text {
+  color: #1f2c46;
+  font-size: 12px;
+}
+.acceptance {
+  color: #a5aab5;
+  font-size: 12px;
+}
+
+.input-div{
+    width: 100%;
+    border: 1px solid rgb(220, 226, 249);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
+}
+
+.get-started{
+  background-color: rgb(86, 200, 112);
 }
 
 .App-logo {
